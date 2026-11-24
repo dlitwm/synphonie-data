@@ -1,0 +1,8 @@
+{
+    "path": "modal_split_model/DATA/erding/",
+    "graph_file": "graph_sep.sqlite",
+    "demand_file": "demand_sep.sqlite",
+    "parameters_file": "parameters.json",
+    "objective_parameters_file": "objective_parameters.json",
+    "transfers_file": "transfers.sqlite"
+}

@@ -1,0 +1,665 @@
+{
+    "path": "modal_split_model\\DATA\\erding\\frontier_dest_bounds_presolve2_focus3",
+    "solution_filenames": [
+        "solution_0",
+        "solution_4",
+        "solution_1",
+        "solution_2",
+        "solution_3"
+    ],
+    "patch_filenames": {
+        "solution_0": [
+            "solution_0_0",
+            "solution_0_1",
+            "solution_0_2",
+            "solution_0_3",
+            "solution_0_4",
+            "solution_0_5",
+            "solution_0_6",
+            "solution_0_7",
+            "solution_0_8",
+            "solution_0_9"
+        ],
+        "solution_1": [
+            "solution_1_0",
+            "solution_1_1",
+            "solution_1_2",
+            "solution_1_3",
+            "solution_1_4",
+            "solution_1_5",
+            "solution_1_6",
+            "solution_1_7",
+            "solution_1_8",
+            "solution_1_9"
+        ],
+        "solution_2": [
+            "solution_2_0",
+            "solution_2_1",
+            "solution_2_2",
+            "solution_2_3",
+            "solution_2_4",
+            "solution_2_5",
+            "solution_2_6",
+            "solution_2_7",
+            "solution_2_8",
+            "solution_2_9"
+        ],
+        "solution_3": [
+            "solution_3_0",
+            "solution_3_1",
+            "solution_3_2",
+            "solution_3_3",
+            "solution_3_4",
+            "solution_3_5",
+            "solution_3_6",
+            "solution_3_7",
+            "solution_3_8",
+            "solution_3_9"
+        ],
+        "solution_4": [
+            "solution_4_0",
+            "solution_4_1",
+            "solution_4_2",
+            "solution_4_3",
+            "solution_4_4",
+            "solution_4_5",
+            "solution_4_6",
+            "solution_4_7",
+            "solution_4_8",
+            "solution_4_9"
+        ]
+    },
+    "solution_values": {
+        "solution_0": {
+            "TIME": 34330.23347078694,
+            "EMISSION": 96024.74949213075,
+            "COSTS": 80494.56283718976,
+            "DETOUR_FACTOR": 3.0
+        },
+        "solution_4": {
+            "TIME": 25242.023048261733,
+            "EMISSION": 235888.29827861692,
+            "COSTS": 39344.25480748408,
+            "DETOUR_FACTOR": 2.0
+        },
+        "solution_1": {
+            "TIME": 29918.617996075387,
+            "EMISSION": 128285.08128516345,
+            "COSTS": 67938.62506358344,
+            "DETOUR_FACTOR": 2.0
+        },
+        "solution_2": {
+            "TIME": 27654.10411615644,
+            "EMISSION": 162142.57173039787,
+            "COSTS": 56858.85803159977,
+            "DETOUR_FACTOR": 2.0
+        },
+        "solution_3": {
+            "TIME": 26203.000454394678,
+            "EMISSION": 195388.43194934478,
+            "COSTS": 48347.94631094532,
+            "DETOUR_FACTOR": 2.0
+        }
+    },
+    "solution_runtimes": {
+        "solution_0": 864885.7428264618,
+        "solution_4": 2121.407475709915,
+        "solution_1": 9398.588714838028,
+        "solution_2": 8773.455346345901,
+        "solution_3": 3613.8532676696777
+    },
+    "solution_gaps": {
+        "solution_0": [
+            0.006680036057426682
+        ],
+        "solution_4": [
+            0.0,
+            0.005037099167575741
+        ],
+        "solution_1": [
+            0.007370542336928467,
+            0.007758361902482663
+        ],
+        "solution_2": [
+            0.0029655659834952157,
+            0.008343376560903297
+        ],
+        "solution_3": [
+            0.009996405248514847,
+            0.009170361495940228
+        ]
+    },
+    "solution_gap_records": {
+        "solution_0": [
+            {
+                "pass": 0,
+                "best": 95707.00568438,
+                "bound": 95067.67943546,
+                "gap": 0.006680036057426682,
+                "reported_gap": 0.00668,
+                "available": true,
+                "source": "gurobi_message"
+            }
+        ],
+        "solution_4": [
+            {
+                "pass": 0,
+                "best": 24992.10202792,
+                "bound": 24992.10202792,
+                "gap": 0.0,
+                "reported_gap": 0.0,
+                "available": true,
+                "source": "gurobi_message"
+            },
+            {
+                "pass": 1,
+                "best": 235888.2982786,
+                "bound": 234700.1055277,
+                "gap": 0.005037099167575741,
+                "reported_gap": 0.005037000000000001,
+                "available": true,
+                "source": "gurobi_message"
+            }
+        ],
+        "solution_1": [
+            {
+                "pass": 0,
+                "best": 29840.15457425,
+                "bound": 29620.21645162,
+                "gap": 0.007370542336928467,
+                "reported_gap": 0.007371,
+                "available": true,
+                "source": "gurobi_message"
+            },
+            {
+                "pass": 1,
+                "best": 128285.0812852,
+                "bound": 127289.7991979,
+                "gap": 0.007758361902482663,
+                "reported_gap": 0.007758,
+                "available": true,
+                "source": "gurobi_message"
+            }
+        ],
+        "solution_2": [
+            {
+                "pass": 0,
+                "best": 27460.93200193,
+                "bound": 27379.49479611,
+                "gap": 0.0029655659834952157,
+                "reported_gap": 0.002966,
+                "available": true,
+                "source": "gurobi_message"
+            },
+            {
+                "pass": 1,
+                "best": 162142.5717304,
+                "bound": 160789.7551979,
+                "gap": 0.008343376560903297,
+                "reported_gap": 0.008343,
+                "available": true,
+                "source": "gurobi_message"
+            }
+        ],
+        "solution_3": [
+            {
+                "pass": 0,
+                "best": 26202.90626162,
+                "bound": 25940.97139194,
+                "gap": 0.009996405248514847,
+                "reported_gap": 0.009996,
+                "available": true,
+                "source": "gurobi_message"
+            },
+            {
+                "pass": 1,
+                "best": 195388.4319493,
+                "bound": 193596.6493962,
+                "gap": 0.009170361495940228,
+                "reported_gap": 0.009170000000000001,
+                "available": true,
+                "source": "gurobi_message"
+            }
+        ]
+    },
+    "solution_status": {
+        "solution_0": 11,
+        "solution_4": 2,
+        "solution_1": 2,
+        "solution_2": 2,
+        "solution_3": 2
+    },
+    "patch_values": {
+        "solution_0": {
+            "solution_0_0": {
+                "TIME": 35472.88779638781,
+                "EMISSION": 95705.49941787469,
+                "COSTS": 80494.56283718976,
+                "DETOUR_FACTOR": 2.406695418566705
+            },
+            "solution_0_1": {
+                "TIME": 25103.556400294903,
+                "EMISSION": 273146.2781986174,
+                "COSTS": 80494.56283718976,
+                "DETOUR_FACTOR": 1.7025424800410278
+            },
+            "solution_0_2": {
+                "TIME": 35222.473423811854,
+                "EMISSION": 95725.91523780403,
+                "COSTS": 80494.56283718976,
+                "DETOUR_FACTOR": 2.4103815404042503
+            },
+            "solution_0_3": {
+                "TIME": 25018.044430497423,
+                "EMISSION": 289089.92921140435,
+                "COSTS": 80494.56283718976,
+                "DETOUR_FACTOR": 1.7051745855347733
+            },
+            "solution_0_4": {
+                "TIME": 28661.987648157683,
+                "EMISSION": 157176.15570448362,
+                "COSTS": 80494.56283718976,
+                "DETOUR_FACTOR": 1.800342206557019
+            },
+            "solution_0_5": {
+                "TIME": 32652.824404875642,
+                "EMISSION": 105241.60446877209,
+                "COSTS": 80494.56283718976,
+                "DETOUR_FACTOR": 2.1088093975080016
+            },
+            "solution_0_6": {
+                "TIME": 26326.06738041611,
+                "EMISSION": 210849.7820680235,
+                "COSTS": 80494.56283718976,
+                "DETOUR_FACTOR": 1.7038134796059619
+            },
+            "solution_0_7": {
+                "TIME": 30622.861492627544,
+                "EMISSION": 127805.09162661785,
+                "COSTS": 80494.56283718976,
+                "DETOUR_FACTOR": 1.891028636316231
+            },
+            "solution_0_8": {
+                "TIME": 25657.04567406955,
+                "EMISSION": 237774.12898396247,
+                "COSTS": 80494.56283718976,
+                "DETOUR_FACTOR": 1.7018473214097667
+            },
+            "solution_0_9": {
+                "TIME": 33772.32613798081,
+                "EMISSION": 96792.76258235007,
+                "COSTS": 80494.56283718976,
+                "DETOUR_FACTOR": 2.326140532780999
+            }
+        },
+        "solution_1": {
+            "solution_1_0": {
+                "TIME": 33986.02292544726,
+                "EMISSION": 119612.84880997198,
+                "COSTS": 67938.62506358341,
+                "DETOUR_FACTOR": 3.0681107085693275
+            },
+            "solution_1_1": {
+                "TIME": 25115.235245023006,
+                "EMISSION": 265688.6317074484,
+                "COSTS": 67938.62506358341,
+                "DETOUR_FACTOR": 1.701851623055603
+            },
+            "solution_1_2": {
+                "TIME": 33129.45600858981,
+                "EMISSION": 119680.03763114737,
+                "COSTS": 67938.62506358341,
+                "DETOUR_FACTOR": 3.0681107085693275
+            },
+            "solution_1_3": {
+                "TIME": 25021.528574225424,
+                "EMISSION": 282465.4193665894,
+                "COSTS": 67938.62506358341,
+                "DETOUR_FACTOR": 1.6986613377185231
+            },
+            "solution_1_4": {
+                "TIME": 25021.51346754269,
+                "EMISSION": 282492.4453832004,
+                "COSTS": 67938.62506358341,
+                "DETOUR_FACTOR": 1.7038120733651545
+            },
+            "solution_1_5": {
+                "TIME": 28645.34984706331,
+                "EMISSION": 147968.4367908756,
+                "COSTS": 67938.62506358341,
+                "DETOUR_FACTOR": 1.7987029906480787
+            },
+            "solution_1_6": {
+                "TIME": 26309.76144822555,
+                "EMISSION": 203732.8327936818,
+                "COSTS": 67938.62506358341,
+                "DETOUR_FACTOR": 1.6986130972544762
+            },
+            "solution_1_7": {
+                "TIME": 30497.145266287655,
+                "EMISSION": 123251.95635179742,
+                "COSTS": 67938.62506358341,
+                "DETOUR_FACTOR": 2.18700537064562
+            },
+            "solution_1_8": {
+                "TIME": 25650.22634489723,
+                "EMISSION": 231025.69578060118,
+                "COSTS": 67938.62506358341,
+                "DETOUR_FACTOR": 1.7002807131497393
+            },
+            "solution_1_9": {
+                "TIME": 27288.149646173086,
+                "EMISSION": 176204.61861763816,
+                "COSTS": 67938.62506358341,
+                "DETOUR_FACTOR": 1.7262081515498156
+            }
+        },
+        "solution_2": {
+            "solution_2_0": {
+                "TIME": 36013.065072707,
+                "EMISSION": 141024.34691074284,
+                "COSTS": 56858.85803159976,
+                "DETOUR_FACTOR": 2.3326849071829248
+            },
+            "solution_2_1": {
+                "TIME": 25120.522069164217,
+                "EMISSION": 258836.9465203537,
+                "COSTS": 56858.85803159976,
+                "DETOUR_FACTOR": 1.6975055109943513
+            },
+            "solution_2_2": {
+                "TIME": 33822.212706223654,
+                "EMISSION": 141157.81721376738,
+                "COSTS": 56858.85803159976,
+                "DETOUR_FACTOR": 2.4213926016872906
+            },
+            "solution_2_3": {
+                "TIME": 25027.10985618939,
+                "EMISSION": 275084.9235819696,
+                "COSTS": 56858.85803159976,
+                "DETOUR_FACTOR": 1.7057298146552415
+            },
+            "solution_2_4": {
+                "TIME": 33533.13885893166,
+                "EMISSION": 141191.38869850157,
+                "COSTS": 56858.85803159976,
+                "DETOUR_FACTOR": 2.409168715971597
+            },
+            "solution_2_5": {
+                "TIME": 25027.108453321558,
+                "EMISSION": 275086.55385809904,
+                "COSTS": 56858.85803159976,
+                "DETOUR_FACTOR": 1.7043349479718113
+            },
+            "solution_2_6": {
+                "TIME": 27962.7015904083,
+                "EMISSION": 157196.0738347161,
+                "COSTS": 56858.85803159976,
+                "DETOUR_FACTOR": 1.860402686654691
+            },
+            "solution_2_7": {
+                "TIME": 26222.106866283517,
+                "EMISSION": 200227.12426472723,
+                "COSTS": 56858.85803159976,
+                "DETOUR_FACTOR": 1.6981285169261877
+            },
+            "solution_2_8": {
+                "TIME": 29839.82419000035,
+                "EMISSION": 143574.16663740002,
+                "COSTS": 56858.85803159976,
+                "DETOUR_FACTOR": 2.2116077816893904
+            },
+            "solution_2_9": {
+                "TIME": 27061.63531172966,
+                "EMISSION": 175391.32282130566,
+                "COSTS": 56858.85803159976,
+                "DETOUR_FACTOR": 1.7277801170702565
+            }
+        },
+        "solution_3": {
+            "solution_3_0": {
+                "TIME": 44393.35911955151,
+                "EMISSION": 158282.48826914944,
+                "COSTS": 48347.94631094532,
+                "DETOUR_FACTOR": 2.519328232278732
+            },
+            "solution_3_1": {
+                "TIME": 25102.655423306005,
+                "EMISSION": 252872.71728847662,
+                "COSTS": 48347.94631094532,
+                "DETOUR_FACTOR": 1.6958348230665938
+            },
+            "solution_3_2": {
+                "TIME": 39672.60355076778,
+                "EMISSION": 158402.84344908065,
+                "COSTS": 48347.94631094532,
+                "DETOUR_FACTOR": 2.5365392699485154
+            },
+            "solution_3_3": {
+                "TIME": 25011.059176443865,
+                "EMISSION": 268146.9318662675,
+                "COSTS": 48347.94631094532,
+                "DETOUR_FACTOR": 1.6927177836518887
+            },
+            "solution_3_4": {
+                "TIME": 39296.861106949524,
+                "EMISSION": 158422.6626636448,
+                "COSTS": 48347.94631094532,
+                "DETOUR_FACTOR": 2.536539269948516
+            },
+            "solution_3_5": {
+                "TIME": 25010.14059174387,
+                "EMISSION": 268619.3280111724,
+                "COSTS": 48347.94631094532,
+                "DETOUR_FACTOR": 1.6948130100311516
+            },
+            "solution_3_6": {
+                "TIME": 28140.108277382777,
+                "EMISSION": 168199.24975040503,
+                "COSTS": 48347.94631094532,
+                "DETOUR_FACTOR": 2.015499498426928
+            },
+            "solution_3_7": {
+                "TIME": 26264.490616812676,
+                "EMISSION": 193588.7618902385,
+                "COSTS": 48347.94631094532,
+                "DETOUR_FACTOR": 1.7212620814397872
+            },
+            "solution_3_8": {
+                "TIME": 30907.680185647416,
+                "EMISSION": 160128.28911302978,
+                "COSTS": 48347.94631094532,
+                "DETOUR_FACTOR": 2.5132631011244655
+            },
+            "solution_3_9": {
+                "TIME": 27039.03715476773,
+                "EMISSION": 178586.3696222539,
+                "COSTS": 48347.94631094532,
+                "DETOUR_FACTOR": 1.8657779212081207
+            }
+        },
+        "solution_4": {
+            "solution_4_0": {
+                "TIME": 49515.52786421571,
+                "EMISSION": 177316.16366318282,
+                "COSTS": 39344.25480748408,
+                "DETOUR_FACTOR": 3.480784175646235
+            },
+            "solution_4_1": {
+                "TIME": 25089.34123861669,
+                "EMISSION": 247864.69084499497,
+                "COSTS": 39344.25480748408,
+                "DETOUR_FACTOR": 1.6920731576880563
+            },
+            "solution_4_2": {
+                "TIME": 47223.46425004418,
+                "EMISSION": 177361.21981923055,
+                "COSTS": 39344.25480748408,
+                "DETOUR_FACTOR": 3.480784175646235
+            },
+            "solution_4_3": {
+                "TIME": 25012.96424632861,
+                "EMISSION": 259763.88164803965,
+                "COSTS": 39344.25480748408,
+                "DETOUR_FACTOR": 1.6892721746455786
+            },
+            "solution_4_4": {
+                "TIME": 46737.0999798726,
+                "EMISSION": 177376.12153099963,
+                "COSTS": 39344.25480748408,
+                "DETOUR_FACTOR": 3.4807841756462343
+            },
+            "solution_4_5": {
+                "TIME": 25010.87881081386,
+                "EMISSION": 260395.95877430827,
+                "COSTS": 39344.25480748408,
+                "DETOUR_FACTOR": 1.6908659869518754
+            },
+            "solution_4_6": {
+                "TIME": 28628.03045220812,
+                "EMISSION": 185108.86294881074,
+                "COSTS": 39344.25480748408,
+                "DETOUR_FACTOR": 2.9884220390648215
+            },
+            "solution_4_7": {
+                "TIME": 26166.745828540927,
+                "EMISSION": 204858.23647834637,
+                "COSTS": 39344.25480748408,
+                "DETOUR_FACTOR": 1.7912307112733528
+            },
+            "solution_4_8": {
+                "TIME": 33603.4650649052,
+                "EMISSION": 178998.49739233515,
+                "COSTS": 39344.25480748408,
+                "DETOUR_FACTOR": 3.480784175646234
+            },
+            "solution_4_9": {
+                "TIME": 27180.410896970134,
+                "EMISSION": 192656.3927612853,
+                "COSTS": 39344.25480748408,
+                "DETOUR_FACTOR": 2.0212058208487758
+            }
+        }
+    },
+    "patch_runtimes": {
+        "solution_0": {
+            "solution_0_0": 178.92817735671997,
+            "solution_0_1": 51.195958852767944,
+            "solution_0_2": 148.816499710083,
+            "solution_0_3": 55.57044792175293,
+            "solution_0_4": 31.145466089248657,
+            "solution_0_5": 30.401620149612427,
+            "solution_0_6": 39.152859926223755,
+            "solution_0_7": 27.598538637161255,
+            "solution_0_8": 46.73571825027466,
+            "solution_0_9": 154.91635251045227
+        },
+        "solution_1": {
+            "solution_1_0": 123.40256023406982,
+            "solution_1_1": 47.72293162345886,
+            "solution_1_2": 110.45554065704346,
+            "solution_1_3": 53.056798219680786,
+            "solution_1_4": 52.86851215362549,
+            "solution_1_5": 30.307273387908936,
+            "solution_1_6": 35.12510895729065,
+            "solution_1_7": 59.916616916656494,
+            "solution_1_8": 37.10570025444031,
+            "solution_1_9": 34.132071018218994
+        },
+        "solution_2": {
+            "solution_2_0": 112.2711501121521,
+            "solution_2_1": 49.86584258079529,
+            "solution_2_2": 107.9103581905365,
+            "solution_2_3": 62.93325209617615,
+            "solution_2_4": 108.63440895080566,
+            "solution_2_5": 52.05802512168884,
+            "solution_2_6": 37.699432611465454,
+            "solution_2_7": 38.76139497756958,
+            "solution_2_8": 81.76610112190247,
+            "solution_2_9": 33.338501930236816
+        },
+        "solution_3": {
+            "solution_3_0": 117.85547518730164,
+            "solution_3_1": 49.56680393218994,
+            "solution_3_2": 116.15537595748901,
+            "solution_3_3": 55.734346866607666,
+            "solution_3_4": 112.11228346824646,
+            "solution_3_5": 58.56052875518799,
+            "solution_3_6": 65.74376940727234,
+            "solution_3_7": 45.32180571556091,
+            "solution_3_8": 130.00890064239502,
+            "solution_3_9": 39.04597353935242
+        },
+        "solution_4": {
+            "solution_4_0": 136.72832989692688,
+            "solution_4_1": 51.372557163238525,
+            "solution_4_2": 142.94458866119385,
+            "solution_4_3": 54.674519777297974,
+            "solution_4_4": 144.03660941123962,
+            "solution_4_5": 55.231988191604614,
+            "solution_4_6": 115.40909004211426,
+            "solution_4_7": 46.33334016799927,
+            "solution_4_8": 126.30414247512817,
+            "solution_4_9": 53.26146054267883
+        }
+    },
+    "pareto_optimal_solutions": [
+        "solution_3_5",
+        "solution_4_5",
+        "solution_4_3",
+        "solution_4_1",
+        "solution_4",
+        "solution_1_8",
+        "solution_4_7",
+        "solution_3",
+        "solution_2_7",
+        "solution_3_7",
+        "solution_3_9",
+        "solution_2_9",
+        "solution_4_9",
+        "solution_1_9",
+        "solution_2",
+        "solution_2_6",
+        "solution_3_6",
+        "solution_4_6",
+        "solution_1_5",
+        "solution_2_8",
+        "solution_1",
+        "solution_1_7",
+        "solution_0_7",
+        "solution_3_8",
+        "solution_0_5",
+        "solution_1_2",
+        "solution_2_4",
+        "solution_4_8",
+        "solution_0_9",
+        "solution_2_2",
+        "solution_1_0",
+        "solution_0",
+        "solution_0_2",
+        "solution_0_0",
+        "solution_2_0",
+        "solution_3_4",
+        "solution_3_2",
+        "solution_3_0",
+        "solution_4_4",
+        "solution_4_2",
+        "solution_4_0"
+    ],
+    "dominated_solutions": [
+        "solution_3_3",
+        "solution_0_3",
+        "solution_1_4",
+        "solution_1_3",
+        "solution_2_5",
+        "solution_2_3",
+        "solution_3_1",
+        "solution_0_1",
+        "solution_1_1",
+        "solution_2_1",
+        "solution_0_8",
+        "solution_1_6",
+        "solution_0_6",
+        "solution_0_4"
+    ]
+}

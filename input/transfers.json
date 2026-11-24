@@ -1,0 +1,52 @@
+{
+    "TRANSFER_MATRIX": {
+        "BUS": {
+            "END": 0,
+            "START": 0.05,
+            "BUS": 0.025,
+            "TRAM": 0.05,
+            "INDIVIDUAL": -1,
+            "ONDEMAND": 0.05,
+            "SBAHN": 0.05
+        },
+        "TRAM": {
+            "END": 0,
+            "START": 0.05,
+            "BUS": 0.05,
+            "TRAM": 0.025,
+            "INDIVIDUAL": -1,
+            "ONDEMAND": 0.05,
+            "SBAHN": 0.05
+        },
+        "INDIVIDUAL": {
+            "END": 0,
+            "START": 0,
+            "BUS": -1,
+            "TRAM": -1,
+            "INDIVIDUAL": 0,
+            "ONDEMAND": -1,
+            "SBAHN": -1
+        },
+        "ONDEMAND": {
+            "END": 0,
+            "START": 0,
+            "BUS": -1,
+            "TRAM": -1,
+            "INDIVIDUAL": 0,
+            "ONDEMAND": 0,
+            "SBAHN": -1
+        },
+        "SBAHN": {
+            "END": 0,
+            "START": 0.05,
+            "BUS": 0.05,
+            "TRAM": 0.05,
+            "INDIVIDUAL": -1,
+            "ONDEMAND": 0.05,
+            "SBAHN": 0.025
+        }
+    },
+    "NUM_PARKING_TIME_LINEARIZATION_PIECES": 1,
+    "NUM_TRAVEL_TIME_LINEARIZATION_PIECES": 30,
+    "MAX_CAP_MULTIPLIER": 3
+}

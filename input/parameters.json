@@ -1,0 +1,38 @@
+{
+    "BUS": {
+        "ALLOWED": true,
+        "CAPACITY": 42,
+        "COSTS": 2.3,
+        "EMISSION": 1.15,
+        "TIME": 0.036236,
+        "SYMMETRIC": true,
+        "CONTINUOUS": false
+    },
+    "INDIVIDUAL": {
+        "ALLOWED": true,
+        "CAPACITY": 1,
+        "COSTS": 0,
+        "EMISSION": 0.2,
+        "TIME": 0.025,
+        "SYMMETRIC": false,
+        "CONTINUOUS": true
+    },
+    "SBAHN": {
+        "ALLOWED":true,
+        "CAPACITY": 500,
+        "COSTS": 16.82,
+        "EMISSION": 12,
+        "TIME":  0.019388,
+        "SYMMETRIC": true,
+        "CONTINUOUS": false
+    },
+    "TRAM": {
+        "ALLOWED": false,
+        "CAPACITY": 164,
+        "COSTS": 6.0,
+        "EMISSION": 4.7,
+        "TIME":  0.028519,
+        "SYMMETRIC": true,
+        "CONTINUOUS": false
+    }
+}

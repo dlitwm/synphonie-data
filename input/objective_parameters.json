@@ -1,0 +1,37 @@
+{
+    "OBJECTIVES": {
+        "TIME": {
+            "LABEL": "TIME",
+            "INDEX": 0,
+            "SENSE": "minimize"
+        },
+        "EMISSION": {
+            "LABEL": "EMISSION",
+            "INDEX": 1,
+            "SENSE": "minimize"
+        },
+        "COSTS": {
+            "LABEL": "COSTS",
+            "INDEX": 2,
+            "SENSE": "minimize"
+        },
+        "DETOUR_FACTOR": {
+            "LABEL": "DETOUR_FACTOR",
+            "INDEX": 3,
+            "SENSE": "minimize"
+        }
+    },
+    "EPSILON_CONSTRAINTS": {
+
+    },
+    "SCALARS": {
+
+    },
+    "PRIORITY":{
+
+    },
+    "ACTIVE_OBJECTIVES": [
+        "TIME",
+        "EMISSION"
+    ]
+}
